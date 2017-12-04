@@ -1,0 +1,12 @@
+.icon-wrapper {
+    float: right;
+    vertical-align: middle;
+}
+
+.icon-wrapper span {
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ED0000;
+    color: #FFF;
+}

@@ -1,0 +1,11 @@
+.sort_wrapper {
+    padding: 20px 0;
+}
+
+.sort_wrapper .btn_normal {
+    border: 0;
+    margin: 0 5px;
+    background-color: #ED8888;
+    color: #fff;
+    cursor: pointer;
+}

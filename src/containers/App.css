@@ -1,0 +1,28 @@
+header.header {
+  background-color: #4F62E3;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+}
+
+.container.search {
+  margin-top: 175px !important;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin: 105px auto 0 auto;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+}

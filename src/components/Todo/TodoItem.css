@@ -1,0 +1,108 @@
+
+.todo_item_box {
+    background-color: #f7f7f7;
+}
+
+.todo_item_box.odd {
+    background-color: #fff;
+}
+
+.todo_item_box header {
+    margin: 10px 0;
+}
+
+.todo_item_box header .sub_info {
+    position: relative;
+    width: 100%;
+}
+
+.todo_item_box header .sub_info .item_location, .todo_item_box header .sub_info .item_date {
+    font-size: 10px;
+    color: #999;
+}
+
+.item_location {
+    float: left;
+}
+
+.item_date {
+    float: right;
+}
+
+.todo_item_box .item aside, .todo_item_box .item p, .todo_item_box .item span, .todo_item_box .item div {
+    display: inline-block;
+}
+
+.todo_item_box .item aside {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.todo_item_box .item aside span {
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.todo_item_box .item div.item_body {
+    width: 60%;
+    text-align: initial;
+    vertical-align: middle;
+}
+
+.todo_item_box .item div.item_body .description_wrapper {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.todo_item_box .item div.item_body .description_wrapper .item_description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.item_description.content_all {
+    text-overflow: initial !important;
+    word-wrap: break-word;
+    overflow: initial !important;
+    white-space: normal !important;
+}
+
+.todo_item_box .item div.item_body .description_wrapper textarea.item_description {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.todo_item_box.odd .item div.item_body .description_wrapper .item_more {
+    background-color: #fff;
+}
+
+.todo_item_box .item div.item_body .description_wrapper .item_more {
+    font-size: 10px;
+    cursor: pointer;
+    border: 0;
+    background-color: #f7f7f7;
+}
+
+.todo_item_box .item div.btn_wrapper {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.todo_item_box .item div.btn_wrapper span {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.todo_item_box .item div.btn_wrapper span.edit_submit {
+    border-radius: 0;
+    background-color: #4F62E3;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #ccc;
+}

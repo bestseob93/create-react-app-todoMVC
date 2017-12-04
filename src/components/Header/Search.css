@@ -1,0 +1,15 @@
+.search_container {
+    background-color: #4E8EEE;
+}
+
+.search_container .search_input {
+    background-color: #4E8EEE;
+    border: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+.search_input::placeholder { 
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+.write-box {
+    background-color: #fff;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.write-box .input_wrapper {
+    padding-top: 10px;
+    width: 75%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.write-box .input_wrapper span {
+    padding-right: 10px;
+}
+
+.write-box .input_wrapper .input_field {
+    padding: 10px 0;
+}
+
+.write-box .submit_box {
+    padding-top: 10px;
+    width: 25%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button.add_btn {
+    background-color: #ED0000;
+    border: 0;
+}
+
+button.add_btn span {
+    color: #fff;
+    font-size: 12px;
+}
